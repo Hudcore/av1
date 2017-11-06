@@ -4012,7 +4012,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .embed-responsive {
   position: relative;
   display: block;
-  width: 100%;
+  width: 70%;
   padding: 0;
   overflow: hidden; }
   .embed-responsive::before {
@@ -4035,7 +4035,11 @@ a.bg-dark:focus, a.bg-dark:hover {
   padding-top: 42.85714%; }
 
 .embed-responsive-16by9::before {
-  padding-top: 56.25%; }
+  padding-right: 50px;
+  padding-left: 120px;
+  padding-top: 56.25%;
+  justify-content: center;
+   }
 
 .embed-responsive-4by3::before {
   padding-top: 75%; }
@@ -6381,4 +6385,171 @@ padding-top: 50px;
   
   padding-left: 50px;
   padding-bottom: 90px;
+}
+
+
+.btn-verde {
+  color: #fff;
+  background-color: #36b57c;
+  border-color: #36b57c; 
+  font-size: 14pt;
+
+}
+
+
+.btn-outline-cinza {
+  font-family: 'Poppins',sans-serif;
+  color: #606060;
+  background-color: transparent;
+  background-image: none;
+  border-color: #606060;
+  
+}
+
+.dashboard {
+
+  font-family: "Raleways", sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.dashboard a {
+  
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 110%;
+  padding-right: 25px;
+  padding-left: 25px;
+
+}
+
+.dashboard p {
+
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.dashboard img {
+
+  max-width:650px;
+  max-height:500px;
+  width: auto;
+  height: auto;
+  align-content: right;
+  padding-left: 50px;
+  padding-bottom: 120px;
+
+}
+
+.video {
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background:  #36b57c;
+  
+  }
+
+.video p {
+
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font color: white;
+  padding-left: 0px;
+  padding-right: 150px;
+}
+
+.aboutus {
+
+font-family: "Raleways", sans-serif;
+padding-top: 70px;
+padding-bottom: 50px;
+
+}
+
+.aboutus h2 {
+
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.aboutus img {
+
+  padding-bottom: 60px;
+  max-width: 100%;
+ 
+}
+
+.portfolio {
+
+  font-style: "Raleways", sans-serif;
+}
+
+.portfolio h4 {
+
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+
+.portfolio p{
+ 
+ padding-top: 10px;
+ padding-right: 10px;
+ justify-content: left;
+
+}
+
+.sobre {
+
+  font-style: "Raleways", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+}
+
+.sobre p {
+
+  padding-top: 30px;
+}
+
+.time {
+
+  background: #41A2EF;
+}
+
+.time p {
+  padding-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.time h1 {
+
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.time img {
+
+  padding-bottom: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 70%;
+}
+
+
+.footer p {
+    font: 400 14px/22px "Raleway", sans-serif;
+    color: #eeeeee;
+    text-align: center;
+    opacity: 0.8;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contact h1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
 }
